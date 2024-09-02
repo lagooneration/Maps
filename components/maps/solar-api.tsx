@@ -1,0 +1,1 @@
+// https://solar.googleapis.com/v1/buildingInsights:findClosest?location.latitude=37.2746464&location.longitude=-121.7530949&key=YOUR_API_KEY

@@ -103,9 +103,10 @@ export default function HomePage() {
   };
 
   return (
-    <div>
-      <LocationInput onLocationChange={handleLocationChange} getLatLonForCity={getLatLonForCity} />
+    <div className="flex flex-col items-center gap-x-2 justify-start rounded-lg border p-3 shadow-md bg-white">
+          
       {isLoaded && <GoogleMaps lat={lat} lng={lng} />}
+      <LocationInput onLocationChange={handleLocationChange} getLatLonForCity={getLatLonForCity} />
     </div>
   );
 }

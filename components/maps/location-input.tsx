@@ -3,7 +3,6 @@
 import { useState } from "react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-import { Form, FormLabel } from "@/components/ui/form";
 
 interface LocationInputProps {
     onLocationChange: (lat: number, lng: number) => void;
@@ -27,7 +26,7 @@ interface LocationInputProps {
     };
   
     return (
-      <div className="flex flex-row items-center gap-x-2 justify-start rounded-lg border p-3 shadow-md bg-white">
+      <div className="flex flex-row items-center gap-x-2 justify-start rounded-lg border p-3 shadow-md bg-white mt-4">
           <div>
             
           
